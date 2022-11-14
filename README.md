@@ -15,6 +15,7 @@ The original list of language models with pretraining precision information is f
   - google/pegasus-cnn_dailymail - XXX: needs reference
   - google/pegasus-xsum - XXX: needs reference
   - google/mt5 - most likely same as t5
+  - google/t5-v1.1 - most likely same as t5 according to (https://github.com/google-research/text-to-text-transfer-transformer/blob/main/released_checkpoints.md#t511)
   - t5 - paper 12 “TPU v3 chips”
   - scifive  paper(arXiv:2106.03598) p.2 "TPU v2-8 on Google Colab"
   - bigscience/T0 and other T0* models (trained on TPUs, confirmed on bigscience slack)
