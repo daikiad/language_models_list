@@ -16,6 +16,7 @@ The original post of pretraining precision information database was retrieved fr
   - google/pegasus-xsum - XXX: needs reference
   - google/mt5 - most likely same as t5
   - t5 - paper 12 “TPU v3 chips”
+  - scifive  paper arXiv:2106.03598 p.2 "TPU v2-8 on Google Colab"
   - bigscience/T0 and other T0* models (trained on TPUs, confirmed on bigscience slack)
 
 - float32
