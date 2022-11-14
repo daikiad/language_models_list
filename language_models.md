@@ -16,13 +16,16 @@ The original list of language models with pretraining precision information was 
   - google/pegasus-xsum - XXX: needs reference
   - google/mt5 - most likely same as t5
   - t5 - paper 12 “TPU v3 chips”
-  - scifive  paper arXiv:2106.03598 p.2 "TPU v2-8 on Google Colab"
+  - scifive  paper(arXiv:2106.03598) p.2 "TPU v2-8 on Google Colab"
   - bigscience/T0 and other T0* models (trained on TPUs, confirmed on bigscience slack)
 
 - float32
   - float32 (full precision)
   - EleutherAI/gpt-neo-2.7B - the model’s config file 4 doesn’t specify precision and the codebase 2 defaults to fp32
   - gsarti/it5-base 1 and other it5-* - stated by creator 4 (JAX-trained)
+
+- models to be added
+  - PubmedBERT paper(arXiv:2007.15779) p.13 DGX-2 machine with 16 V100 GPUs.
 
 ## References
 Stas Bekman, Model pre-training precision database: fp16, fp32, bf16
