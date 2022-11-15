@@ -19,6 +19,7 @@ The original list of language models with pretraining precision information was 
   - t5 - paper 12 “TPU v3 chips”
   - razent/SciFive  paper(arXiv:2106.03598) p.2 "TPU v2-8 on Google Colab"
   - bigscience/T0 and other T0* models (trained on TPUs, confirmed on bigscience slack)
+  - facebook/esm2 (https://github.com/facebookresearch/esm/issues/259)
 
 - float32 (full precision)
   - EleutherAI/gpt-neo-2.7B - the model’s config file 4 doesn’t specify precision and the codebase 2 defaults to fp32
