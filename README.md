@@ -1,6 +1,6 @@
 # List of Language models with pre-training precision information
 
-The original list of language models with pretraining precision information is from Stas Bekman's post (https://discuss.huggingface.co/t/model-pre-training-precision-database-fp16-fp32-bf16/5671).
+The original list of language models with pretraining precision information was taken from Stas Bekman's post (https://discuss.huggingface.co/t/model-pre-training-precision-database-fp16-fp32-bf16/5671).
 
 - float16 (mixed precision)
   - allenai/longformer - paper 4, “we employed mixed precision training (floating points 16 and 32) using apex12 to reduce memory consumption and speed-up training. However, we kept the attention computation in fp32 to avoid numerical instability issues.”
@@ -17,7 +17,7 @@ The original list of language models with pretraining precision information is f
   - google/mt5 - most likely same as t5
   - google/t5-v1.1 - most likely same as t5 according to (https://github.com/google-research/text-to-text-transfer-transformer/blob/main/released_checkpoints.md#t511)
   - t5 - paper 12 “TPU v3 chips”
-  - scifive  paper(arXiv:2106.03598) p.2 "TPU v2-8 on Google Colab"
+  - razent/SciFive  paper(arXiv:2106.03598) p.2 "TPU v2-8 on Google Colab"
   - bigscience/T0 and other T0* models (trained on TPUs, confirmed on bigscience slack)
 
 - float32 (full precision)
