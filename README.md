@@ -8,6 +8,8 @@ The original list of language models with pretraining precision information was 
   - lvwerra/codeparrot - informed by the creator of the model 1
   - facebook/m2m100_418M (and others) train info 3
   - eleutherai/gpt-neox-20b (doesn’t exist yet, but including for the sake of future-proofing) - as shown in the configs 4. The paper also states that the model was in fp16, see “Appendix B: Full Configuration Details.” Finally, Stella Biderman’s official announcement on Twitter 1 also includes a link to download both “full” weights and “slim” weights which implies mixed precision was used
+  - facebook/esm2 "we train with --fp16 which implements "Mixed Precision" described"(https://github.com/facebookresearch/esm/issues/283#issuecomment-1254283417)(https://github.com/facebookresearch/esm/issues/259)
+  
 - bfloat16 (mixed precision)
   - google/mobilebert - paper 5, “we train IB-BERTLARGE on 256 TPU v3 chips”
   - eleutherai/gpt-neo-1.3b - shown in the config file 11
@@ -19,7 +21,6 @@ The original list of language models with pretraining precision information was 
   - t5 - paper 12 “TPU v3 chips”
   - razent/SciFive  paper(arXiv:2106.03598) p.2 "TPU v2-8 on Google Colab"
   - bigscience/T0 and other T0* models (trained on TPUs, confirmed on bigscience slack)
-  - facebook/esm2 "we train with --fp16 which implements "Mixed Precision" described"(https://github.com/facebookresearch/esm/issues/283#issuecomment-1254283417)(https://github.com/facebookresearch/esm/issues/259)
 
 - float32 (full precision)
   - EleutherAI/gpt-neo-2.7B - the model’s config file 4 doesn’t specify precision and the codebase 2 defaults to fp32
