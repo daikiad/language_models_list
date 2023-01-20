@@ -1,6 +1,6 @@
 # List of Language models with pre-training precision information
 
-The original list of language models with pretraining precision information was taken from Stas Bekman's post (https://discuss.huggingface.co/t/model-pre-training-precision-database-fp16-fp32-bf16/5671).
+The original list of language models with pretraining precision information was taken from the post by Stas Bekman and Stella Biderman (https://discuss.huggingface.co/t/model-pre-training-precision-database-fp16-fp32-bf16/5671).
 
 - float16 (mixed precision)
   - allenai/longformer - paper 4, “we employed mixed precision training (floating points 16 and 32) using apex12 to reduce memory consumption and speed-up training. However, we kept the attention computation in fp32 to avoid numerical instability issues.”
