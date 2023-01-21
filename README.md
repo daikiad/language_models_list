@@ -30,5 +30,5 @@ The original list of language models with pretraining precision information was 
   - PubmedBERT paper(arXiv:2007.15779) p.13 "DGX-2 machine with 16 V100 GPUs"
 
 ## References
-Stas Bekman, Model pre-training precision database: fp16, fp32, bf16
+Stas Bekman & Stella Biderman Model pre-training precision database: fp16, fp32, bf16
 https://discuss.huggingface.co/t/model-pre-training-precision-database-fp16-fp32-bf16/5671
